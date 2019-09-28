@@ -37,17 +37,17 @@
     var newLocation = '', name = '';
     $('.submitButton').click(function(event) {
       name = document.getElementById("name").value;
-      // if (days != '00' || hours != '00' || minutes != '00' || seconds != '00') {
-      //     event.preventDefault();
-      //     console.log(days + hours + minutes + seconds);
-      //     alert("It's not time yet.");
-      //     return;
-      // } else if (name != '159.8') {
-      //     event.preventDefault();
-      //     console.log(name);
-      //     alert("The password is wrong. THINK MORE PLEASE!");
-      //     return;
-      // }
+      if (days != '00' || hours != '00' || minutes != '00' || seconds != '00') {
+          event.preventDefault();
+          console.log(days + hours + minutes + seconds);
+          alert("It's not time yet.");
+          return;
+      } else if (name != '159.8') {
+          event.preventDefault();
+          console.log(name);
+          alert("The password is wrong. THINK MORE PLEASE!");
+          return;
+      }
       event.preventDefault();
       newLocation = './main/index.html';
       console.log(newLocation);
