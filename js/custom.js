@@ -27,7 +27,7 @@
     // ABOUT SLIDER
     $('body').vegas({
         slides: [
-            { src: 'images/slide-image01.jpg' },
+            { src: 'images/home.jpg' },
             // { src: 'images/slide-image02.jpg' }
         ],
         timer: false,
@@ -42,10 +42,10 @@
           console.log(days + hours + minutes + seconds);
           alert("It's not time yet.");
           return;
-      } else if (name != 'Chianti') {
+      } else if (name != '159.8') {
           event.preventDefault();
           console.log(name);
-          alert("The name is wrong.");
+          alert("The password is wrong. THINK MORE PLEASE!");
           return;
       }
       event.preventDefault();

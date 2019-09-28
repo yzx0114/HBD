@@ -22,6 +22,10 @@
       $('body').fadeOut(1000, newpage);
     });
 
+    $('.submit').click(function(event) {
+      alert('哆啦已經收到你的訊息囉！');
+    });
+
     function newpage() {
       window.location = newLocation;
     }
