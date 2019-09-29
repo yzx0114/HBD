@@ -383,3 +383,9 @@ figcaption {
     padding: 15px;
   }
 }
+
+.scroll {
+	position: fixed;
+	right: 10px;
+	bottom: 0;
+}
